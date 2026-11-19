@@ -1,6 +1,3 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
 public class LoadingScene : BaseScene
 {
     protected override void Awake()
@@ -8,8 +5,7 @@ public class LoadingScene : BaseScene
         base.Awake();
 
         SceneType = Define.EScene.Scene_Loading;
-
-        //�ε� Todo
+        // 로딩 화면 초기화 후 게임 장면으로 이동합니다.
         SceneManager.Instance.LoadScene(Define.EScene.Scene_BotanicPanic);
     }
 }

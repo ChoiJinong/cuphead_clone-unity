@@ -26,11 +26,21 @@ public class BulletPool : MonoBehaviour
         inactiveRoot = root.transform;
         int capacity = Mathf.Clamp(defaultCapacity, 1, Mathf.Max(1, maxPoolSize));
         bullets = new ObjectPool<PlayerBullet>(
-            () => Create(bulletPrefab), null, b => b.ResetForPool(), b => Destroy(b.gameObject),
-            true, capacity, Mathf.Max(1, maxPoolSize));
+            createFunc: () => Create(bulletPrefab),
+            actionOnGet: null,
+            actionOnRelease: bullet => bullet.ResetForPool(),
+            actionOnDestroy: bullet => Destroy(bullet.gameObject),
+            collectionCheck: true,
+            defaultCapacity: capacity,
+            maxSize: Mathf.Max(1, maxPoolSize));
         sparks = new ObjectPool<PlayerBulletSpark>(
-            () => Create(sparkPrefab), null, s => s.ResetForPool(), s => Destroy(s.gameObject),
-            true, capacity, Mathf.Max(1, maxPoolSize));
+            createFunc: () => Create(sparkPrefab),
+            actionOnGet: null,
+            actionOnRelease: spark => spark.ResetForPool(),
+            actionOnDestroy: spark => Destroy(spark.gameObject),
+            collectionCheck: true,
+            defaultCapacity: capacity,
+            maxSize: Mathf.Max(1, maxPoolSize));
     }
 
     private T Create<T>(T prefab) where T : Component

@@ -2,15 +2,5 @@ using UnityEngine;
 
 public class ResourceManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // 리소스 로딩 기능을 추가할 때 구현합니다.
 }

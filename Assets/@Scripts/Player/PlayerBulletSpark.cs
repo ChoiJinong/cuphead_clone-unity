@@ -7,15 +7,15 @@ public class PlayerBulletSpark : MonoBehaviour
     private static readonly int SparkState = Animator.StringToHash("Base Layer.Player_bullet_spark");
     private Animator animator;
     private BulletPool pool;
-    private float age;
-    private bool leased;
+    private float elapsedTime;
+    private bool isSpawned;
 
     public void Play(BulletPool source, Vector3 position, Vector2 direction)
     {
         if (animator == null) animator = GetComponent<Animator>();
         pool = source;
-        age = 0f;
-        leased = true;
+        elapsedTime = 0f;
+        isSpawned = true;
         transform.SetPositionAndRotation(position,
             Quaternion.Euler(0f, 0f, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg));
         gameObject.SetActive(true);
@@ -28,13 +28,14 @@ public class PlayerBulletSpark : MonoBehaviour
 
     private void Update()
     {
-        if (!leased) return;
-        age += Time.deltaTime;
+        if (!isSpawned) return;
+        elapsedTime += Time.deltaTime;
         var state = animator.GetCurrentAnimatorStateInfo(0);
-        if ((state.fullPathHash == SparkState && state.normalizedTime >= 1f)
-            || age >= Mathf.Max(1f, sparkAnimation != null ? sparkAnimation.length + 0.25f : 1f))
+        bool animationFinished = state.fullPathHash == SparkState && state.normalizedTime >= 1f;
+        float timeout = Mathf.Max(1f, sparkAnimation != null ? sparkAnimation.length + 0.25f : 1f);
+        if (animationFinished || elapsedTime >= timeout)
         {
-            leased = false;
+            isSpawned = false;
             if (pool != null) pool.Return(this);
             else gameObject.SetActive(false);
         }
@@ -42,8 +43,8 @@ public class PlayerBulletSpark : MonoBehaviour
 
     public void ResetForPool()
     {
-        leased = false;
-        age = 0f;
+        isSpawned = false;
+        elapsedTime = 0f;
         gameObject.SetActive(false);
     }
 }

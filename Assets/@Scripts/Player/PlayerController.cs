@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     {
         movement = GetComponent<PlayerMovement>();
         attack = GetComponent<PlayerAttack>();
-        movement.Initialize(attack);
+        movement.Initialize();
         attack.Initialize(movement);
     }
 
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        movement.TickPhysics();
+        movement.TickPhysics(attack.AimLockedInput, attack.DuckHeldInput);
         attack.UpdateAnimation();
     }
 

@@ -23,12 +23,12 @@ public class PlayerBullet : MonoBehaviour
     private Vector2 spawnPosition;
     private Vector3 initialScale;
     private RigidbodyInterpolation2D flightInterpolation;
-    private float age;
-    private float hitAge;
-    private bool leased;
-    private bool hitting;
+    private float lifetimeElapsed;
+    private float hitElapsed;
+    private bool isSpawned;
+    private bool isHitting;
 
-    public bool IsHitting => hitting;
+    public bool IsHitting => isHitting;
     public Vector2 Direction => direction;
 
     private void Awake() => CacheComponents();
@@ -52,9 +52,9 @@ public class PlayerBullet : MonoBehaviour
         ownerColliders = shooterColliders;
         direction = aim.sqrMagnitude > 0f ? aim.normalized : Vector2.right;
         spawnPosition = position;
-        age = hitAge = 0f;
-        hitting = false;
-        leased = true;
+        lifetimeElapsed = hitElapsed = 0f;
+        isHitting = false;
+        isSpawned = true;
         transform.localScale = initialScale;
         transform.SetPositionAndRotation(position, Quaternion.Euler(0f, 0f, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg));
         body.position = position;
@@ -83,7 +83,7 @@ public class PlayerBullet : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!leased || hitting) return;
+        if (!isSpawned || isHitting) return;
         float remaining = maxDistance - Vector2.Distance(spawnPosition, body.position);
         if (remaining <= 0f)
         {
@@ -92,46 +92,58 @@ public class PlayerBullet : MonoBehaviour
         }
 
         // 빠른 총알이 얇은 벽을 통과하지 않도록 다음 물리 이동 구간을 검사합니다.
-        var filter = new ContactFilter2D { useLayerMask = true, layerMask = hitLayers, useTriggers = true };
         float step = Mathf.Min(speed * Time.fixedDeltaTime, remaining);
-        int count = body.Cast(direction, filter, sweepHits, step);
+        if (TryGetHitPoint(step, out Vector2 hitPoint))
+        {
+            PlayHitAnimation(hitPoint);
+            return;
+        }
+        body.linearVelocity = direction * (step / Time.fixedDeltaTime);
+    }
+
+    private bool TryGetHitPoint(float distance, out Vector2 hitPoint)
+    {
+        var filter = new ContactFilter2D { useLayerMask = true, layerMask = hitLayers, useTriggers = true };
+        int count = body.Cast(direction, filter, sweepHits, distance);
         float nearest = float.PositiveInfinity;
-        Vector2 hitPoint = body.position;
+        hitPoint = body.position;
         for (int i = 0; i < count; i++)
         {
-            if (IsTarget(sweepHits[i].collider) && sweepHits[i].distance < nearest)
+            if (CanHit(sweepHits[i].collider) && sweepHits[i].distance < nearest)
             {
                 nearest = sweepHits[i].distance;
                 hitPoint = sweepHits[i].collider.ClosestPoint(
                     sweepHits[i].distance > 0f ? sweepHits[i].point : body.position);
             }
         }
-        if (!float.IsPositiveInfinity(nearest))
-        {
-            Hit(hitPoint);
-            return;
-        }
-        body.linearVelocity = direction * (step / Time.fixedDeltaTime);
+        return !float.IsPositiveInfinity(nearest);
     }
 
     private void Update()
     {
-        if (!leased) return;
-        if (hitting)
+        if (!isSpawned) return;
+        if (isHitting)
         {
-            hitAge += Time.deltaTime;
-            var state = animator.GetCurrentAnimatorStateInfo(0);
-            if ((state.fullPathHash == HitState && state.normalizedTime >= 1f)
-                || hitAge >= Mathf.Max(1f, hitAnimation != null ? hitAnimation.length + 0.25f : 1f))
-                ReturnToPool();
+            UpdateHitAnimation();
             return;
         }
-        age += Time.deltaTime;
-        if (age >= maxLifetime || Vector2.Distance(spawnPosition, body.position) >= maxDistance)
+        lifetimeElapsed += Time.deltaTime;
+        if (lifetimeElapsed >= maxLifetime || Vector2.Distance(spawnPosition, body.position) >= maxDistance)
             ReturnToPool();
     }
 
-    private bool IsTarget(Collider2D other)
+    private void UpdateHitAnimation()
+    {
+        hitElapsed += Time.deltaTime;
+        var state = animator.GetCurrentAnimatorStateInfo(0);
+        bool animationFinished = state.fullPathHash == HitState && state.normalizedTime >= 1f;
+        // Animator 연결이 잘못되어도 총알이 풀 밖에 영구히 남지 않도록 합니다.
+        float timeout = Mathf.Max(1f, hitAnimation != null ? hitAnimation.length + 0.25f : 1f);
+        if (animationFinished || hitElapsed >= timeout)
+            ReturnToPool();
+    }
+
+    private bool CanHit(Collider2D other)
     {
         return other != null && other != bulletCollider
             && (owner == null || !other.transform.IsChildOf(owner))
@@ -141,25 +153,22 @@ public class PlayerBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (IsTarget(other)) Hit(other.ClosestPoint(body.position));
+        if (CanHit(other)) PlayHitAnimation(other.ClosestPoint(body.position));
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (IsTarget(collision.collider))
-            Hit(collision.contactCount > 0 ? collision.GetContact(0).point
+        if (CanHit(collision.collider))
+            PlayHitAnimation(collision.contactCount > 0 ? collision.GetContact(0).point
                 : collision.collider.ClosestPoint(body.position));
     }
 
-    private void Hit(Vector2 point)
+    private void PlayHitAnimation(Vector2 point)
     {
-        if (!leased || hitting) return;
-        hitting = true;
-        hitAge = 0f;
-        body.linearVelocity = Vector2.zero;
-        body.angularVelocity = 0f;
-        bulletCollider.enabled = false;
-        body.simulated = false;
+        if (!isSpawned || isHitting) return;
+        isHitting = true;
+        hitElapsed = 0f;
+        StopPhysics();
         // Death 스프라이트의 중앙을 총알 원점 대신 실제 접촉 지점에 맞춥니다.
         body.interpolation = RigidbodyInterpolation2D.None;
         body.position = point;
@@ -170,8 +179,8 @@ public class PlayerBullet : MonoBehaviour
 
     public void ReturnToPool()
     {
-        if (!leased) return;
-        leased = false; // 여러 충돌 콜백이 와도 한 번만 반환합니다.
+        if (!isSpawned) return;
+        isSpawned = false; // 여러 충돌 콜백이 와도 한 번만 반환합니다.
         if (pool != null) pool.Return(this);
         else gameObject.SetActive(false);
     }
@@ -183,16 +192,21 @@ public class PlayerBullet : MonoBehaviour
             if (collider != null) Physics2D.IgnoreCollision(bulletCollider, collider, ignore);
     }
 
-    public void ResetForPool()
+    private void StopPhysics()
     {
-        CacheComponents();
-        IgnoreOwner(false);
         body.linearVelocity = Vector2.zero;
         body.angularVelocity = 0f;
         bulletCollider.enabled = false;
         body.simulated = false;
-        leased = hitting = false;
-        age = hitAge = 0f;
+    }
+
+    public void ResetForPool()
+    {
+        CacheComponents();
+        IgnoreOwner(false);
+        StopPhysics();
+        isSpawned = isHitting = false;
+        lifetimeElapsed = hitElapsed = 0f;
         direction = Vector2.zero;
         owner = null;
         ownerColliders = null;

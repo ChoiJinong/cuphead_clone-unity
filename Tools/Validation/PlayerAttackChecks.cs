@@ -8,6 +8,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.SceneManagement;
+using UnitySceneManager = UnityEngine.SceneManagement.SceneManager;
 
 public static class PlayerAttackChecks
 {
@@ -27,10 +28,10 @@ public static class PlayerAttackChecks
             Check(frames.Length > 0 && frames.All(frame=>frame.value is Sprite), name+" has missing sprite frames");
         }
         var results = new List<string>();
-        var scene = UnityEngine.SceneManagement.SceneManager.CreateScene("PlayerAttackChecks", new CreateSceneParameters(LocalPhysicsMode.Physics2D));
+        var scene = UnitySceneManager.CreateScene("PlayerAttackChecks", new CreateSceneParameters(LocalPhysicsMode.Physics2D));
         var physics = scene.GetPhysicsScene2D();
         var root = new GameObject("CombatChecks");
-        UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(root, scene);
+        UnitySceneManager.MoveGameObjectToScene(root, scene);
         var bulletPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/@Prefabs/Player_Bullet.prefab").GetComponent<PlayerBullet>();
         var sparkPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/@Prefabs/Player_Bullet_Spark.prefab").GetComponent<PlayerBulletSpark>();
         var pool = root.AddComponent<BulletPool>();
@@ -44,9 +45,9 @@ public static class PlayerAttackChecks
         var ownerCollider = owner.AddComponent<BoxCollider2D>();
         var ownerColliders = new Collider2D[] { ownerCollider };
         var realPlayer = UnityEngine.Object.FindFirstObjectByType<PlayerController>();
-        var originalCombat = realPlayer.GetComponent<PlayerAttack>();
-        bool originalCombatEnabled = originalCombat.enabled;
-        originalCombat.enabled = false;
+        var originalAttack = realPlayer.GetComponent<PlayerAttack>();
+        bool originalAttackEnabled = originalAttack.enabled;
+        originalAttack.enabled = false;
         Keyboard keyboard = null;
         var originalKeyboard = Keyboard.current;
         try
@@ -129,22 +130,29 @@ public static class PlayerAttackChecks
             bulletSettings.ApplyModifiedPropertiesWithoutUndo();
             results.Add("Distance and lifetime auto-return OK");
 
-            Check(Application.isFocused, "Focus the Game window for input checks");
             var inactive = new GameObject("InactiveRig");
             inactive.transform.SetParent(root.transform);
             inactive.SetActive(false);
             var rig = UnityEngine.Object.Instantiate(realPlayer.gameObject, inactive.transform);
             rig.transform.position = new Vector3(0, 10, 0);
-            var combat = rig.GetComponent<PlayerAttack>();
-            var combatSettings = new SerializedObject(combat);
-            combatSettings.FindProperty("bulletPool").objectReferenceValue = pool;
-            combatSettings.ApplyModifiedPropertiesWithoutUndo();
-            combat.enabled = true;
+            var rigAttack = rig.GetComponent<PlayerAttack>();
+            var attackSettings = new SerializedObject(rigAttack);
+            attackSettings.FindProperty("bulletPool").objectReferenceValue = pool;
+            attackSettings.ApplyModifiedPropertiesWithoutUndo();
+            rigAttack.enabled = true;
             inactive.SetActive(true);
             keyboard = InputSystem.AddDevice<Keyboard>();
             InputSystem.QueueStateEvent(keyboard, new KeyboardState(Key.LeftShift, Key.UpArrow, Key.LeftArrow));
             InputSystem.Update();
-            await Task.Delay(440);
+            var rigMovement = rig.GetComponent<PlayerMovement>();
+            for (int i = 0; i < 4; i++)
+            {
+                float horizontal = rigMovement.ReadInput(keyboard);
+                horizontal = rigAttack.ReadInput(keyboard, horizontal);
+                rigMovement.ApplyInput(horizontal);
+                rigAttack.SendMessage("LateUpdate", SendMessageOptions.RequireReceiver);
+                await Task.Delay(130);
+            }
             int heldCount = pool.ActiveBulletCount;
             Check(heldCount >= 2 && heldCount <= 5, "Held firing cadence failed: " + heldCount);
             var bullets = root.GetComponentsInChildren<PlayerBullet>();
@@ -152,10 +160,12 @@ public static class PlayerAttackChecks
             Check(rig.transform.Find("ShootPos").localPosition.x < 0, "ShootPos was not mirrored for left aim");
             InputSystem.QueueStateEvent(keyboard, new KeyboardState());
             InputSystem.Update();
+            rigAttack.ReadInput(keyboard, 0f);
+            rigAttack.SendMessage("LateUpdate", SendMessageOptions.RequireReceiver);
             await Task.Delay(200);
             Check(pool.ActiveBulletCount == heldCount, "Firing continued after key release");
             results.Add("Shift held cadence/release, airborne 8-way aim and ShootPos placement OK (shots="+heldCount+")");
-            combat.enabled = false;
+            rigAttack.enabled = false;
             root.SetActive(false);
             Check(pool.ActiveBulletCount == 0 && pool.ActiveSparkCount == 0, "Pool disable leaked active objects");
             results.Add("Pool disable cleanup OK");
@@ -165,9 +175,9 @@ public static class PlayerAttackChecks
         {
             if (keyboard != null) InputSystem.RemoveDevice(keyboard);
             if (originalKeyboard != null) originalKeyboard.MakeCurrent();
-            originalCombat.enabled = originalCombatEnabled;
+            originalAttack.enabled = originalAttackEnabled;
             UnityEngine.Object.Destroy(root);
-            _ = UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(scene);
+            _ = UnitySceneManager.UnloadSceneAsync(scene);
         }
     }
 }
