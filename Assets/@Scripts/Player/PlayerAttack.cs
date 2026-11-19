@@ -4,6 +4,15 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Animator), typeof(SpriteRenderer))]
 public class PlayerAttack : MonoBehaviour
 {
+    [SerializeField] private Transform shootPos;
+    [SerializeField] private BulletPool bulletPool;
+    [SerializeField, Min(0.02f)] private float fireInterval = 0.12f;
+    [SerializeField] private float duckMuzzleOffset = -0.35f; // 앉을 때 발사 위치를 내릴 높이
+    private PlayerController controller;
+    private Collider2D[] ownerColliders;
+    private Vector3 muzzleRestPosition;
+    private Quaternion muzzleRestRotation;
+    private float nextFireTime;
     private bool attackHeld; // 왼쪽 Shift를 누르고 있는지
     private bool aimLocked; // Z로 제자리 조준 중인지
     private bool duckHeld; // Z 조준이 아닐 때 아래 방향키를 누르고 있는지
@@ -21,12 +30,14 @@ public class PlayerAttack : MonoBehaviour
     private PlayerMovement movement;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    
     private bool isGrounded => movement.IsGrounded;
     private bool isDashing => movement.IsDashing;
     private float horizontalInput => movement.HorizontalInput;
     private float moveSpeed => movement.MoveSpeed;
     public bool AimLockedInput => aimLocked;
     public bool DuckHeldInput => duckHeld;
+    public bool AttackHeldInput => attackHeld; // 점프 애니메이션과 별개로 실제 발사 입력을 전달합니다.
 
     // 나중에 발사 코드에서 입력 상태와 실제 조준 방향을 사용할 수 있습니다.
     public Vector2 AimDirection => aimDirection.normalized;
@@ -41,7 +52,40 @@ public class PlayerAttack : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         attackLayer = animator.GetLayerIndex("Attack");
         aimDirection = spriteRenderer.flipX ? Vector2.left : Vector2.right;
+        controller = GetComponent<PlayerController>();
+        ownerColliders = GetComponentsInChildren<Collider2D>();
+        if (shootPos == null) shootPos = transform.Find("ShootPos");
+        if (shootPos != null)
+        {
+            muzzleRestPosition = shootPos.localPosition;
+            muzzleRestRotation = shootPos.localRotation;
+        }
     }
+
+    private void LateUpdate()
+    {
+        // 이번 프레임의 조준·이동 입력 처리가 끝난 뒤 발사합니다.
+        if (controller == null || !controller.isActiveAndEnabled || !movement.isActiveAndEnabled
+            || shootPos == null || bulletPool == null)
+            return;
+        Vector2 direction = AimDirection;
+        UpdateMuzzle(direction);
+        if (!attackHeld || isDashing || Time.time < nextFireTime)
+            return;
+        bulletPool.Fire(shootPos.position, direction, transform, ownerColliders);
+        nextFireTime = Time.time + Mathf.Max(0.02f, fireInterval);
+    }
+
+    private void UpdateMuzzle(Vector2 direction)
+    {
+        Vector3 pivot = new Vector3(0f, muzzleRestPosition.y, muzzleRestPosition.z);
+        if (IsDucking) pivot.y += duckMuzzleOffset;
+        shootPos.localPosition = pivot
+            + new Vector3(direction.x, direction.y, 0f) * Mathf.Abs(muzzleRestPosition.x);
+        shootPos.rotation = Quaternion.Euler(0f, 0f, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg);
+    }
+
+    private void OnDisable() => ResetState();
 
     public float ReadInput(Keyboard keyboard, float horizontalInput)
     {
@@ -124,6 +168,12 @@ public class PlayerAttack : MonoBehaviour
 
     public void ResetState()
     {
+        nextFireTime = 0f;
+        if (shootPos != null)
+        {
+            shootPos.localPosition = muzzleRestPosition;
+            shootPos.localRotation = muzzleRestRotation;
+        }
         attackHeld = false;
         aimLocked = false;
         duckHeld = false;
