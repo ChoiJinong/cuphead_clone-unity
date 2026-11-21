@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 0c01b3479346aed47ab5d9239d44a6db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1885957006457975073
+    second: veggie_carrot_ground_burst_front_0017_0
+  - first:
+      213: 5129233943587778139
+    second: veggie_carrot_ground_burst_front_0017_1
+  - first:
+      213: -7020595533261915768
+    second: veggie_carrot_ground_burst_front_0017_2
+  - first:
+      213: 5026208140926516573
+    second: veggie_carrot_ground_burst_front_0017_3
+  - first:
+      213: 6940954039563430950
+    second: veggie_carrot_ground_burst_front_0017_4
+  - first:
+      213: -3778229898012247059
+    second: veggie_carrot_ground_burst_front_0017_5
+  - first:
+      213: -2568964953174325183
+    second: veggie_carrot_ground_burst_front_0017_6
+  - first:
+      213: -9196327478366229840
+    second: veggie_carrot_ground_burst_front_0017_7
+  - first:
+      213: 2479875410214496226
+    second: veggie_carrot_ground_burst_front_0017_8
+  - first:
+      213: -2328293639585178781
+    second: veggie_carrot_ground_burst_front_0017_9
+  - first:
+      213: -5146649397777479975
+    second: veggie_carrot_ground_burst_front_0017_10
+  - first:
+      213: 8993134546298959983
+    second: veggie_carrot_ground_burst_front_0017_11
+  - first:
+      213: -2762981569163070256
+    second: veggie_carrot_ground_burst_front_0017_12
+  - first:
+      213: -6723047401697083636
+    second: veggie_carrot_ground_burst_front_0017_13
+  - first:
+      213: 4768932847816124305
+    second: veggie_carrot_ground_burst_front_0017_14
+  - first:
+      213: 2151752691395602055
+    second: veggie_carrot_ground_burst_front_0017_15
+  - first:
+      213: -363782979795444536
+    second: veggie_carrot_ground_burst_front_0017_16
+  - first:
+      213: 5393630212787966209
+    second: veggie_carrot_ground_burst_front_0017_17
+  - first:
+      213: 3329979619014484014
+    second: veggie_carrot_ground_burst_front_0017_18
+  - first:
+      213: -5675757010402713913
+    second: veggie_carrot_ground_burst_front_0017_19
+  - first:
+      213: 7368994201406109318
+    second: veggie_carrot_ground_burst_front_0017_20
+  - first:
+      213: -4764136037412901712
+    second: veggie_carrot_ground_burst_front_0017_21
+  - first:
+      213: -3676310661681800549
+    second: veggie_carrot_ground_burst_front_0017_22
+  - first:
+      213: -8019026873061930815
+    second: veggie_carrot_ground_burst_front_0017_23
+  - first:
+      213: 9031257176080525028
+    second: veggie_carrot_ground_burst_front_0017_24
+  - first:
+      213: -6676998533606792022
+    second: veggie_carrot_ground_burst_front_0017_25
+  - first:
+      213: 1635618906781772396
+    second: veggie_carrot_ground_burst_front_0017_26
+  - first:
+      213: 81726938002529433
+    second: veggie_carrot_ground_burst_front_0017_27
+  - first:
+      213: 7871469532453050264
+    second: veggie_carrot_ground_burst_front_0017_28
+  - first:
+      213: 1792161075541325064
+    second: veggie_carrot_ground_burst_front_0017_29
+  - first:
+      213: 7185144890369369573
+    second: veggie_carrot_ground_burst_front_0017_30
+  - first:
+      213: -1805235986496944579
+    second: veggie_carrot_ground_burst_front_0017_31
+  - first:
+      213: -8618014199474500699
+    second: veggie_carrot_ground_burst_front_0017_32
+  - first:
+      213: -2689619005737099274
+    second: veggie_carrot_ground_burst_front_0017_33
+  - first:
+      213: -1141335523584805654
+    second: veggie_carrot_ground_burst_front_0017_34
+  - first:
+      213: 2494331868418667811
+    second: veggie_carrot_ground_burst_front_0017_35
+  - first:
+      213: 4819897111780416024
+    second: veggie_carrot_ground_burst_front_0017_36
+  - first:
+      213: -3325021129415707396
+    second: veggie_carrot_ground_burst_front_0017_37
+  - first:
+      213: 8291902480218711424
+    second: veggie_carrot_ground_burst_front_0017_38
+  - first:
+      213: 5630183623384847707
+    second: veggie_carrot_ground_burst_front_0017_39
+  - first:
+      213: -440821946145108163
+    second: veggie_carrot_ground_burst_front_0017_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_0
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 346
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1213697b7e34c2a10800000000000000
+      internalID: 1885957006457975073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 330
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eec698813be2740800000000000000
+      internalID: 5129233943587778139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 292
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889ba382f85d19e90800000000000000
+      internalID: -7020595533261915768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 290
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5df9179cada0c540800000000000000
+      internalID: 5026208140926516573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_4
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 314
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cad7a9ce8335060800000000000000
+      internalID: 6940954039563430950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 305
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb3839fce7019bc0800000000000000
+      internalID: -3778229898012247059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 268
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148cd9d6cf3395cd0800000000000000
+      internalID: -2568964953174325183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 258
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba21d5f1e4106080800000000000000
+      internalID: -9196327478366229840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 259
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7af01fb894a6220800000000000000
+      internalID: 2479875410214496226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_9
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 258
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b59b7454d30bfd0800000000000000
+      internalID: -2328293639585178781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 268
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6cefd04ad6398b0800000000000000
+      internalID: -5146649397777479975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 230
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f687171e8380ecc70800000000000000
+      internalID: 8993134546298959983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 237
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d47519d6eae7a9d0800000000000000
+      internalID: -2762981569163070256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 238
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f7bb52200f2b2a0800000000000000
+      internalID: -6723047401697083636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 240
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197a5cf7827ae2240800000000000000
+      internalID: 4768932847816124305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 242
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786202f1caf8cdd10800000000000000
+      internalID: 2151752691395602055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 218
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc95f9ae4593faf0800000000000000
+      internalID: -363782979795444536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 217
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1019a031a160ada40800000000000000
+      internalID: 5393630212787966209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_18
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 206
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2026ac02d6763e20800000000000000
+      internalID: 3329979619014484014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 211
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce538b0219ab31b0800000000000000
+      internalID: -5675757010402713913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 202
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68679befe2de34660800000000000000
+      internalID: 7368994201406109318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 200
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bced54f38362edb0800000000000000
+      internalID: -4764136037412901712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_22
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 194
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a997e5eee1bfcc0800000000000000
+      internalID: -3676310661681800549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 199
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c805daab81b6b090800000000000000
+      internalID: -8019026873061930815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e62a7f4d88755d70800000000000000
+      internalID: 9031257176080525028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 183
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4209eb5398653a0800000000000000
+      internalID: -6676998533606792022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_26
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 187
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ae3a6dab2e2b610800000000000000
+      internalID: 1635618906781772396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_27
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 174
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c9834973a522100800000000000000
+      internalID: 81726938002529433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 176
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8979c2eb5d31d3d60800000000000000
+      internalID: 7871469532453050264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 163
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8053cefb0090fd810800000000000000
+      internalID: 1792161075541325064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 152
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5ed229533c6b360800000000000000
+      internalID: 7185144890369369573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_31
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 154
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3609115f6382f6e0800000000000000
+      internalID: -1805235986496944579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_32
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 148
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abcc0beeb9a66880800000000000000
+      internalID: -8618014199474500699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_33
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 137
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff96e5b3cd8caad0800000000000000
+      internalID: -2689619005737099274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6
+        width: 334
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4713b63692920f0800000000000000
+      internalID: -1141335523584805654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_35
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 108
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325f7096e95ad9220800000000000000
+      internalID: 2494331868418667811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_36
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 88
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a5a91e2e6b3e240800000000000000
+      internalID: 4819897111780416024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 82
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4328646e62bd1d0800000000000000
+      internalID: -3325021129415707396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_38
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 54
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085ed959f51c21370800000000000000
+      internalID: 8291902480218711424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 6
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55531cec2e622e40800000000000000
+      internalID: 5630183623384847707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_ground_burst_front_0017_40
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f03da86c2e1e9f0800000000000000
+      internalID: -440821946145108163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      veggie_carrot_ground_burst_front_0017_0: 1885957006457975073
+      veggie_carrot_ground_burst_front_0017_1: 5129233943587778139
+      veggie_carrot_ground_burst_front_0017_10: -5146649397777479975
+      veggie_carrot_ground_burst_front_0017_11: 8993134546298959983
+      veggie_carrot_ground_burst_front_0017_12: -2762981569163070256
+      veggie_carrot_ground_burst_front_0017_13: -6723047401697083636
+      veggie_carrot_ground_burst_front_0017_14: 4768932847816124305
+      veggie_carrot_ground_burst_front_0017_15: 2151752691395602055
+      veggie_carrot_ground_burst_front_0017_16: -363782979795444536
+      veggie_carrot_ground_burst_front_0017_17: 5393630212787966209
+      veggie_carrot_ground_burst_front_0017_18: 3329979619014484014
+      veggie_carrot_ground_burst_front_0017_19: -5675757010402713913
+      veggie_carrot_ground_burst_front_0017_2: -7020595533261915768
+      veggie_carrot_ground_burst_front_0017_20: 7368994201406109318
+      veggie_carrot_ground_burst_front_0017_21: -4764136037412901712
+      veggie_carrot_ground_burst_front_0017_22: -3676310661681800549
+      veggie_carrot_ground_burst_front_0017_23: -8019026873061930815
+      veggie_carrot_ground_burst_front_0017_24: 9031257176080525028
+      veggie_carrot_ground_burst_front_0017_25: -6676998533606792022
+      veggie_carrot_ground_burst_front_0017_26: 1635618906781772396
+      veggie_carrot_ground_burst_front_0017_27: 81726938002529433
+      veggie_carrot_ground_burst_front_0017_28: 7871469532453050264
+      veggie_carrot_ground_burst_front_0017_29: 1792161075541325064
+      veggie_carrot_ground_burst_front_0017_3: 5026208140926516573
+      veggie_carrot_ground_burst_front_0017_30: 7185144890369369573
+      veggie_carrot_ground_burst_front_0017_31: -1805235986496944579
+      veggie_carrot_ground_burst_front_0017_32: -8618014199474500699
+      veggie_carrot_ground_burst_front_0017_33: -2689619005737099274
+      veggie_carrot_ground_burst_front_0017_34: -1141335523584805654
+      veggie_carrot_ground_burst_front_0017_35: 2494331868418667811
+      veggie_carrot_ground_burst_front_0017_36: 4819897111780416024
+      veggie_carrot_ground_burst_front_0017_37: -3325021129415707396
+      veggie_carrot_ground_burst_front_0017_38: 8291902480218711424
+      veggie_carrot_ground_burst_front_0017_39: 5630183623384847707
+      veggie_carrot_ground_burst_front_0017_4: 6940954039563430950
+      veggie_carrot_ground_burst_front_0017_40: -440821946145108163
+      veggie_carrot_ground_burst_front_0017_5: -3778229898012247059
+      veggie_carrot_ground_burst_front_0017_6: -2568964953174325183
+      veggie_carrot_ground_burst_front_0017_7: -9196327478366229840
+      veggie_carrot_ground_burst_front_0017_8: 2479875410214496226
+      veggie_carrot_ground_burst_front_0017_9: -2328293639585178781
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

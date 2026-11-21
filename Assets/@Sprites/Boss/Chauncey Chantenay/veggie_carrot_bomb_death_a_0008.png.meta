@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: dba0a4eb6d2bcaa45a27fc1c7ca38f95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6734076908589046116
+    second: veggie_carrot_bomb_death_a_0008_0
+  - first:
+      213: 8546286013447248220
+    second: veggie_carrot_bomb_death_a_0008_1
+  - first:
+      213: -6599568247011979187
+    second: veggie_carrot_bomb_death_a_0008_2
+  - first:
+      213: 7533504208310773619
+    second: veggie_carrot_bomb_death_a_0008_3
+  - first:
+      213: 6933072807194128063
+    second: veggie_carrot_bomb_death_a_0008_4
+  - first:
+      213: -827346824099535905
+    second: veggie_carrot_bomb_death_a_0008_5
+  - first:
+      213: -6164587948975969470
+    second: veggie_carrot_bomb_death_a_0008_6
+  - first:
+      213: -6258198502749353552
+    second: veggie_carrot_bomb_death_a_0008_7
+  - first:
+      213: -5546317966504387404
+    second: veggie_carrot_bomb_death_a_0008_8
+  - first:
+      213: -3269382206589370297
+    second: veggie_carrot_bomb_death_a_0008_9
+  - first:
+      213: -3492500637209715358
+    second: veggie_carrot_bomb_death_a_0008_10
+  - first:
+      213: -7841889525164435954
+    second: veggie_carrot_bomb_death_a_0008_11
+  - first:
+      213: 6687867037992159668
+    second: veggie_carrot_bomb_death_a_0008_12
+  - first:
+      213: 3057705629904199248
+    second: veggie_carrot_bomb_death_a_0008_13
+  - first:
+      213: 3592732060432659506
+    second: veggie_carrot_bomb_death_a_0008_14
+  - first:
+      213: 5052242456532889855
+    second: veggie_carrot_bomb_death_a_0008_15
+  - first:
+      213: -6019535239602346938
+    second: veggie_carrot_bomb_death_a_0008_16
+  - first:
+      213: 727409346198987511
+    second: veggie_carrot_bomb_death_a_0008_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 360
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4695c9a054f347d50800000000000000
+      internalID: 6734076908589046116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 442
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59996c59d18a9670800000000000000
+      internalID: 8546286013447248220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 439
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4057e535af9964a0800000000000000
+      internalID: -6599568247011979187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 411
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377264ac9226c8860800000000000000
+      internalID: 7533504208310773619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 439
+        width: 93
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbee9b23cf8373060800000000000000
+      internalID: 6933072807194128063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 388
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3ef7b627ca484f0800000000000000
+      internalID: -827346824099535905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 419
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b22aafbebf27aa0800000000000000
+      internalID: -6164587948975969470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 302
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b94ebd7e996629a0800000000000000
+      internalID: -6258198502749353552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 348
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc9323f1358703b0800000000000000
+      internalID: -5546317966504387404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 347
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740024d7432d0a2d0800000000000000
+      internalID: -3269382206589370297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 340
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d1a4dac25288fc0800000000000000
+      internalID: -3492500637209715358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_11
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 326
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0697b466030c2390800000000000000
+      internalID: -7841889525164435954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_12
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 340
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9019023a310dc50800000000000000
+      internalID: 6687867037992159668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 305
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ed62ae1172f6a20800000000000000
+      internalID: 3057705629904199248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 74
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234fe3b16c2fbd130800000000000000
+      internalID: 3592732060432659506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 63
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff03acc0fbb2d1640800000000000000
+      internalID: 5052242456532889855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6446e8aa790567ca0800000000000000
+      internalID: -6019535239602346938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_carrot_bomb_death_a_0008_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f26d7642f6481a00800000000000000
+      internalID: 727409346198987511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      veggie_carrot_bomb_death_a_0008_0: 6734076908589046116
+      veggie_carrot_bomb_death_a_0008_1: 8546286013447248220
+      veggie_carrot_bomb_death_a_0008_10: -3492500637209715358
+      veggie_carrot_bomb_death_a_0008_11: -7841889525164435954
+      veggie_carrot_bomb_death_a_0008_12: 6687867037992159668
+      veggie_carrot_bomb_death_a_0008_13: 3057705629904199248
+      veggie_carrot_bomb_death_a_0008_14: 3592732060432659506
+      veggie_carrot_bomb_death_a_0008_15: 5052242456532889855
+      veggie_carrot_bomb_death_a_0008_16: -6019535239602346938
+      veggie_carrot_bomb_death_a_0008_17: 727409346198987511
+      veggie_carrot_bomb_death_a_0008_2: -6599568247011979187
+      veggie_carrot_bomb_death_a_0008_3: 7533504208310773619
+      veggie_carrot_bomb_death_a_0008_4: 6933072807194128063
+      veggie_carrot_bomb_death_a_0008_5: -827346824099535905
+      veggie_carrot_bomb_death_a_0008_6: -6164587948975969470
+      veggie_carrot_bomb_death_a_0008_7: -6258198502749353552
+      veggie_carrot_bomb_death_a_0008_8: -5546317966504387404
+      veggie_carrot_bomb_death_a_0008_9: -3269382206589370297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

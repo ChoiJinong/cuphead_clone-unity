@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 254789535ead9914990731b7f448e87b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 893482447045121837
+    second: veggie_potato_ground_burst_front_0016_0
+  - first:
+      213: 8932827603254899548
+    second: veggie_potato_ground_burst_front_0016_1
+  - first:
+      213: -967932376444818693
+    second: veggie_potato_ground_burst_front_0016_2
+  - first:
+      213: 601463767285349747
+    second: veggie_potato_ground_burst_front_0016_3
+  - first:
+      213: -6585594844837472172
+    second: veggie_potato_ground_burst_front_0016_4
+  - first:
+      213: 2618070370689038314
+    second: veggie_potato_ground_burst_front_0016_5
+  - first:
+      213: 3862915667304240543
+    second: veggie_potato_ground_burst_front_0016_6
+  - first:
+      213: 1638262786400810844
+    second: veggie_potato_ground_burst_front_0016_7
+  - first:
+      213: -7647480709949097781
+    second: veggie_potato_ground_burst_front_0016_8
+  - first:
+      213: -5082422268938330976
+    second: veggie_potato_ground_burst_front_0016_9
+  - first:
+      213: 9025186290008157552
+    second: veggie_potato_ground_burst_front_0016_10
+  - first:
+      213: 6663955329806227173
+    second: veggie_potato_ground_burst_front_0016_11
+  - first:
+      213: -4626686605578220667
+    second: veggie_potato_ground_burst_front_0016_12
+  - first:
+      213: 7658770695985803512
+    second: veggie_potato_ground_burst_front_0016_13
+  - first:
+      213: 4673633155318700398
+    second: veggie_potato_ground_burst_front_0016_14
+  - first:
+      213: -6463789697400215917
+    second: veggie_potato_ground_burst_front_0016_15
+  - first:
+      213: -5385352466384776326
+    second: veggie_potato_ground_burst_front_0016_16
+  - first:
+      213: -3828508598929459505
+    second: veggie_potato_ground_burst_front_0016_17
+  - first:
+      213: -6673047315891170529
+    second: veggie_potato_ground_burst_front_0016_18
+  - first:
+      213: -946462382911839641
+    second: veggie_potato_ground_burst_front_0016_19
+  - first:
+      213: -5643382462198850638
+    second: veggie_potato_ground_burst_front_0016_20
+  - first:
+      213: -892244197452877292
+    second: veggie_potato_ground_burst_front_0016_21
+  - first:
+      213: 5176773037898400413
+    second: veggie_potato_ground_burst_front_0016_22
+  - first:
+      213: 7164933932507802493
+    second: veggie_potato_ground_burst_front_0016_23
+  - first:
+      213: -1488799788418929701
+    second: veggie_potato_ground_burst_front_0016_24
+  - first:
+      213: -6885950397842969334
+    second: veggie_potato_ground_burst_front_0016_25
+  - first:
+      213: 5078433602220680230
+    second: veggie_potato_ground_burst_front_0016_26
+  - first:
+      213: 7582888243568825661
+    second: veggie_potato_ground_burst_front_0016_27
+  - first:
+      213: 6248568273917237358
+    second: veggie_potato_ground_burst_front_0016_28
+  - first:
+      213: 8996575852528976827
+    second: veggie_potato_ground_burst_front_0016_29
+  - first:
+      213: -8138840125476874337
+    second: veggie_potato_ground_burst_front_0016_30
+  - first:
+      213: -1989980885645499972
+    second: veggie_potato_ground_burst_front_0016_31
+  - first:
+      213: -4236610908745273418
+    second: veggie_potato_ground_burst_front_0016_32
+  - first:
+      213: 1334718778753516722
+    second: veggie_potato_ground_burst_front_0016_33
+  - first:
+      213: -2909226835172176944
+    second: veggie_potato_ground_burst_front_0016_34
+  - first:
+      213: -8611495179558447968
+    second: veggie_potato_ground_burst_front_0016_35
+  - first:
+      213: -8977915081585073090
+    second: veggie_potato_ground_burst_front_0016_36
+  - first:
+      213: 2161782728550914229
+    second: veggie_potato_ground_burst_front_0016_37
+  - first:
+      213: 1347956566532228027
+    second: veggie_potato_ground_burst_front_0016_38
+  - first:
+      213: 4944371606725188210
+    second: veggie_potato_ground_burst_front_0016_39
+  - first:
+      213: 2622328132360519632
+    second: veggie_potato_ground_burst_front_0016_40
+  - first:
+      213: 1306012945303945512
+    second: veggie_potato_ground_burst_front_0016_41
+  - first:
+      213: -1608722391718325129
+    second: veggie_potato_ground_burst_front_0016_42
+  - first:
+      213: -9127178341519400649
+    second: veggie_potato_ground_burst_front_0016_43
+  - first:
+      213: 6216529888511473209
+    second: veggie_potato_ground_burst_front_0016_44
+  - first:
+      213: 28353632310862583
+    second: veggie_potato_ground_burst_front_0016_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 397
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27db2d3d89466c00800000000000000
+      internalID: 893482447045121837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 416
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53ffc38067c7fb70800000000000000
+      internalID: 8932827603254899548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 359
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa2867c1a63192f0800000000000000
+      internalID: -967932376444818693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_3
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 352
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dbf421c14d85800800000000000000
+      internalID: 601463767285349747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 379
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45891de61644b94a0800000000000000
+      internalID: -6585594844837472172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_5
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 368
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae735e98121455420800000000000000
+      internalID: 2618070370689038314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 316
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95d5f23555db9530800000000000000
+      internalID: 3862915667304240543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 306
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57792803574cb610800000000000000
+      internalID: 1638262786400810844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 318
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8f4d8ffc0bed590800000000000000
+      internalID: -7647480709949097781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_9
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 325
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac556dcfdb9779b0800000000000000
+      internalID: -5082422268938330976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_10
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 318
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d69affc17ef3d70800000000000000
+      internalID: 9025186290008157552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 276
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6db28b0102b7c50800000000000000
+      internalID: 6663955329806227173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 291
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bc373ab05bacfb0800000000000000
+      internalID: -4626686605578220667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 290
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0b76ebe5b694a60800000000000000
+      internalID: 7658770695985803512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_14
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 291
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e695241c7941cd040800000000000000
+      internalID: 4673633155318700398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_15
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 278
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39661af44810c46a0800000000000000
+      internalID: -6463789697400215917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_16
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 288
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a739cd2f6726345b0800000000000000
+      internalID: -5385352466384776326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 261
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6f74da6b76edac0800000000000000
+      internalID: -3828508598929459505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_18
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 244
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13deee42d29463a0800000000000000
+      internalID: -6673047315891170529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_19
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 261
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76225413a7d7dd2f0800000000000000
+      internalID: -946462382911839641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 246
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbd7f0fc8daea1b0800000000000000
+      internalID: -5643382462198850638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_21
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 256
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412fae531ac1e93f0800000000000000
+      internalID: -892244197452877292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 220
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9201c676a797d740800000000000000
+      internalID: 5176773037898400413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 234
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b254e3375fe6360800000000000000
+      internalID: 7164933932507802493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 235
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbec9dfa78b65be0800000000000000
+      internalID: -1488799788418929701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 229
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d2c93b8903070a0800000000000000
+      internalID: -6885950397842969334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_26
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 240
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62465cb54783a7640800000000000000
+      internalID: 5078433602220680230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_27
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 239
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35d7618ea4db3960800000000000000
+      internalID: 7582888243568825661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_28
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 211
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68dc912dbf57b650800000000000000
+      internalID: 6248568273917237358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 201
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3c8dc62124adc70800000000000000
+      internalID: 8996575852528976827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_30
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 216
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97514df6080d0f80800000000000000
+      internalID: -8138840125476874337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_31
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 223
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb168498dea2264e0800000000000000
+      internalID: -1989980885645499972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 188
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf61b433d88435c0800000000000000
+      internalID: -4236610908745273418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_33
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 198
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b485aa58afd58210800000000000000
+      internalID: 1334718778753516722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_34
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 183
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db478e6b9950a7d0800000000000000
+      internalID: -2909226835172176944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_35
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 168
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a41e6582c2dd7880800000000000000
+      internalID: -8611495179558447968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 130
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34ef72ecc9086380800000000000000
+      internalID: -8977915081585073090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 117
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b81ad020f1300e10800000000000000
+      internalID: 2161782728550914229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_38
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 115
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb30fc00b57e4b210800000000000000
+      internalID: 1347956566532228027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_39
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 124
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ad168a7cfed9440800000000000000
+      internalID: 4944371606725188210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 104
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfbcddea81646420800000000000000
+      internalID: 2622328132360519632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_41
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 6
+        width: 387
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82147ecaad3ef1210800000000000000
+      internalID: 1306012945303945512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_42
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 58
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7749963128baca9e0800000000000000
+      internalID: -1608722391718325129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731e81008afb55180800000000000000
+      internalID: -9127178341519400649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_44
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936335c3ffc854650800000000000000
+      internalID: 6216529888511473209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_ground_burst_front_0016_45
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 4
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f22bf57a7bb46000800000000000000
+      internalID: 28353632310862583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      veggie_potato_ground_burst_front_0016_0: 893482447045121837
+      veggie_potato_ground_burst_front_0016_1: 8932827603254899548
+      veggie_potato_ground_burst_front_0016_10: 9025186290008157552
+      veggie_potato_ground_burst_front_0016_11: 6663955329806227173
+      veggie_potato_ground_burst_front_0016_12: -4626686605578220667
+      veggie_potato_ground_burst_front_0016_13: 7658770695985803512
+      veggie_potato_ground_burst_front_0016_14: 4673633155318700398
+      veggie_potato_ground_burst_front_0016_15: -6463789697400215917
+      veggie_potato_ground_burst_front_0016_16: -5385352466384776326
+      veggie_potato_ground_burst_front_0016_17: -3828508598929459505
+      veggie_potato_ground_burst_front_0016_18: -6673047315891170529
+      veggie_potato_ground_burst_front_0016_19: -946462382911839641
+      veggie_potato_ground_burst_front_0016_2: -967932376444818693
+      veggie_potato_ground_burst_front_0016_20: -5643382462198850638
+      veggie_potato_ground_burst_front_0016_21: -892244197452877292
+      veggie_potato_ground_burst_front_0016_22: 5176773037898400413
+      veggie_potato_ground_burst_front_0016_23: 7164933932507802493
+      veggie_potato_ground_burst_front_0016_24: -1488799788418929701
+      veggie_potato_ground_burst_front_0016_25: -6885950397842969334
+      veggie_potato_ground_burst_front_0016_26: 5078433602220680230
+      veggie_potato_ground_burst_front_0016_27: 7582888243568825661
+      veggie_potato_ground_burst_front_0016_28: 6248568273917237358
+      veggie_potato_ground_burst_front_0016_29: 8996575852528976827
+      veggie_potato_ground_burst_front_0016_3: 601463767285349747
+      veggie_potato_ground_burst_front_0016_30: -8138840125476874337
+      veggie_potato_ground_burst_front_0016_31: -1989980885645499972
+      veggie_potato_ground_burst_front_0016_32: -4236610908745273418
+      veggie_potato_ground_burst_front_0016_33: 1334718778753516722
+      veggie_potato_ground_burst_front_0016_34: -2909226835172176944
+      veggie_potato_ground_burst_front_0016_35: -8611495179558447968
+      veggie_potato_ground_burst_front_0016_36: -8977915081585073090
+      veggie_potato_ground_burst_front_0016_37: 2161782728550914229
+      veggie_potato_ground_burst_front_0016_38: 1347956566532228027
+      veggie_potato_ground_burst_front_0016_39: 4944371606725188210
+      veggie_potato_ground_burst_front_0016_4: -6585594844837472172
+      veggie_potato_ground_burst_front_0016_40: 2622328132360519632
+      veggie_potato_ground_burst_front_0016_41: 1306012945303945512
+      veggie_potato_ground_burst_front_0016_42: -1608722391718325129
+      veggie_potato_ground_burst_front_0016_43: -9127178341519400649
+      veggie_potato_ground_burst_front_0016_44: 6216529888511473209
+      veggie_potato_ground_burst_front_0016_45: 28353632310862583
+      veggie_potato_ground_burst_front_0016_5: 2618070370689038314
+      veggie_potato_ground_burst_front_0016_6: 3862915667304240543
+      veggie_potato_ground_burst_front_0016_7: 1638262786400810844
+      veggie_potato_ground_burst_front_0016_8: -7647480709949097781
+      veggie_potato_ground_burst_front_0016_9: -5082422268938330976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

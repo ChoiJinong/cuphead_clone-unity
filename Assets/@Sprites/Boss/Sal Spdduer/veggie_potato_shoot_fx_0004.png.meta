@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 3c90611d23826c840b7789ae853d29ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6810687633764991011
+    second: veggie_potato_shoot_fx_0004_0
+  - first:
+      213: 959758899846650088
+    second: veggie_potato_shoot_fx_0004_1
+  - first:
+      213: -7934085564572331587
+    second: veggie_potato_shoot_fx_0004_2
+  - first:
+      213: 2143934801198915501
+    second: veggie_potato_shoot_fx_0004_3
+  - first:
+      213: 6712911487346595177
+    second: veggie_potato_shoot_fx_0004_4
+  - first:
+      213: 3217542651568342775
+    second: veggie_potato_shoot_fx_0004_5
+  - first:
+      213: -5723758010349434622
+    second: veggie_potato_shoot_fx_0004_6
+  - first:
+      213: 2959370958445956649
+    second: veggie_potato_shoot_fx_0004_7
+  - first:
+      213: -5891596259016506195
+    second: veggie_potato_shoot_fx_0004_8
+  - first:
+      213: 5891110803532622029
+    second: veggie_potato_shoot_fx_0004_9
+  - first:
+      213: -8395256409537514849
+    second: veggie_potato_shoot_fx_0004_10
+  - first:
+      213: 4265486088660522421
+    second: veggie_potato_shoot_fx_0004_11
+  - first:
+      213: -7470457199668207423
+    second: veggie_potato_shoot_fx_0004_12
+  - first:
+      213: 5302498510326936661
+    second: veggie_potato_shoot_fx_0004_13
+  - first:
+      213: -4607601200597542609
+    second: veggie_potato_shoot_fx_0004_14
+  - first:
+      213: 5476773485493938283
+    second: veggie_potato_shoot_fx_0004_15
+  - first:
+      213: -1813793236317481858
+    second: veggie_potato_shoot_fx_0004_16
+  - first:
+      213: 6880759921288748278
+    second: veggie_potato_shoot_fx_0004_17
+  - first:
+      213: 3697885073308434298
+    second: veggie_potato_shoot_fx_0004_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 301
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfba418ea39b71a0800000000000000
+      internalID: -6810687633764991011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 272
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8116762afb15d00800000000000000
+      internalID: 959758899846650088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 186
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db19c12373774e190800000000000000
+      internalID: -7934085564572331587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 223
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf1f07b759c0cd10800000000000000
+      internalID: 2143934801198915501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 248
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965dee36e6d092d50800000000000000
+      internalID: 6712911487346595177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 168
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6466c8ef107ac20800000000000000
+      internalID: 3217542651568342775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 160
+        width: 59
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20943d45a602190b0800000000000000
+      internalID: -5723758010349434622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e47c0153cc11920800000000000000
+      internalID: 2959370958445956649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 138
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da40d4dda68dc3ea0800000000000000
+      internalID: -5891596259016506195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 136
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc82709301e61c150800000000000000
+      internalID: 5891110803532622029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 142
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92f13786ce0e7b80800000000000000
+      internalID: -8395256409537514849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 142
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b51bf48ffc023b30800000000000000
+      internalID: 4265486088660522421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 141
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c06400d1ca935890800000000000000
+      internalID: -7470457199668207423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 66
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55433122d42469940800000000000000
+      internalID: 5302498510326936661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 53
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2958b3ce138e00c0800000000000000
+      internalID: -4607601200597542609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 47
+        width: 91
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68e426c778610c40800000000000000
+      internalID: 5476773485493938283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 25
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e745a4559ac14d6e0800000000000000
+      internalID: -1813793236317481858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc192d41be5d7f50800000000000000
+      internalID: 6880759921288748278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shoot_fx_0004_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 3
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fb4c6c1e6815330800000000000000
+      internalID: 3697885073308434298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      veggie_potato_shoot_fx_0004_0: -6810687633764991011
+      veggie_potato_shoot_fx_0004_1: 959758899846650088
+      veggie_potato_shoot_fx_0004_10: -8395256409537514849
+      veggie_potato_shoot_fx_0004_11: 4265486088660522421
+      veggie_potato_shoot_fx_0004_12: -7470457199668207423
+      veggie_potato_shoot_fx_0004_13: 5302498510326936661
+      veggie_potato_shoot_fx_0004_14: -4607601200597542609
+      veggie_potato_shoot_fx_0004_15: 5476773485493938283
+      veggie_potato_shoot_fx_0004_16: -1813793236317481858
+      veggie_potato_shoot_fx_0004_17: 6880759921288748278
+      veggie_potato_shoot_fx_0004_18: 3697885073308434298
+      veggie_potato_shoot_fx_0004_2: -7934085564572331587
+      veggie_potato_shoot_fx_0004_3: 2143934801198915501
+      veggie_potato_shoot_fx_0004_4: 6712911487346595177
+      veggie_potato_shoot_fx_0004_5: 3217542651568342775
+      veggie_potato_shoot_fx_0004_6: -5723758010349434622
+      veggie_potato_shoot_fx_0004_7: 2959370958445956649
+      veggie_potato_shoot_fx_0004_8: -5891596259016506195
+      veggie_potato_shoot_fx_0004_9: 5891110803532622029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

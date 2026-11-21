@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 786fb0b0a32ea85439a3d4061996f982
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5335084660486856950
+    second: veggie_potato_shot_pink_death_0005_0
+  - first:
+      213: -8458550764021450114
+    second: veggie_potato_shot_pink_death_0005_1
+  - first:
+      213: 7068407696092399695
+    second: veggie_potato_shot_pink_death_0005_2
+  - first:
+      213: -9179522503324816514
+    second: veggie_potato_shot_pink_death_0005_3
+  - first:
+      213: -3394464223519114690
+    second: veggie_potato_shot_pink_death_0005_4
+  - first:
+      213: -4255019070934372182
+    second: veggie_potato_shot_pink_death_0005_5
+  - first:
+      213: -7039379832849559431
+    second: veggie_potato_shot_pink_death_0005_6
+  - first:
+      213: -8395450508359003264
+    second: veggie_potato_shot_pink_death_0005_7
+  - first:
+      213: -5766677527032924471
+    second: veggie_potato_shot_pink_death_0005_8
+  - first:
+      213: 8614806347685430802
+    second: veggie_potato_shot_pink_death_0005_9
+  - first:
+      213: -2798732548958992436
+    second: veggie_potato_shot_pink_death_0005_10
+  - first:
+      213: 778374865934358959
+    second: veggie_potato_shot_pink_death_0005_11
+  - first:
+      213: 8773427817760520772
+    second: veggie_potato_shot_pink_death_0005_12
+  - first:
+      213: -1299841603245477150
+    second: veggie_potato_shot_pink_death_0005_13
+  - first:
+      213: -303515633700488280
+    second: veggie_potato_shot_pink_death_0005_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 219
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f9b0d84c8f5f5b0800000000000000
+      internalID: -5335084660486856950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 228
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a74eb35e03d9a80800000000000000
+      internalID: -8458550764021450114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 213
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48893d7957081260800000000000000
+      internalID: 7068407696092399695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bae9d1be8cb9080800000000000000
+      internalID: -9179522503324816514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 175
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3afe5af5c074e0d0800000000000000
+      internalID: -3394464223519114690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 162
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0b174f2b223f4c0800000000000000
+      internalID: -4255019070934372182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 126
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97014f796591f4e90800000000000000
+      internalID: -7039379832849559431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 111
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08393ef5e3e5d7b80800000000000000
+      internalID: -8395450508359003264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c679f2a755a8ffa0800000000000000
+      internalID: -5766677527032924471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 50
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2160292eab0fd8770800000000000000
+      internalID: 8614806347685430802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 62
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7c9f53397e829d0800000000000000
+      internalID: -2798732548958992436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 45
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa91c1a01d75dca00800000000000000
+      internalID: 778374865934358959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 38
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a752cdd1a71c970800000000000000
+      internalID: 8773427817760520772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2774ed2f806fde0800000000000000
+      internalID: -1299841603245477150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggie_potato_shot_pink_death_0005_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 10
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab3185a322b9cbf0800000000000000
+      internalID: -303515633700488280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      veggie_potato_shot_pink_death_0005_0: -5335084660486856950
+      veggie_potato_shot_pink_death_0005_1: -8458550764021450114
+      veggie_potato_shot_pink_death_0005_10: -2798732548958992436
+      veggie_potato_shot_pink_death_0005_11: 778374865934358959
+      veggie_potato_shot_pink_death_0005_12: 8773427817760520772
+      veggie_potato_shot_pink_death_0005_13: -1299841603245477150
+      veggie_potato_shot_pink_death_0005_14: -303515633700488280
+      veggie_potato_shot_pink_death_0005_2: 7068407696092399695
+      veggie_potato_shot_pink_death_0005_3: -9179522503324816514
+      veggie_potato_shot_pink_death_0005_4: -3394464223519114690
+      veggie_potato_shot_pink_death_0005_5: -4255019070934372182
+      veggie_potato_shot_pink_death_0005_6: -7039379832849559431
+      veggie_potato_shot_pink_death_0005_7: -8395450508359003264
+      veggie_potato_shot_pink_death_0005_8: -5766677527032924471
+      veggie_potato_shot_pink_death_0005_9: 8614806347685430802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
