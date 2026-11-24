@@ -8,6 +8,7 @@ public class PlayerBullet : MonoBehaviour
     [SerializeField, Min(0.1f)] private float maxDistance = 25f;
     [SerializeField] private LayerMask hitLayers = ~0;
     [SerializeField] private AnimationClip hitAnimation;
+    [SerializeField, Min(0)] private int damage = 4;
 
     private static readonly int FlyState = Animator.StringToHash("Base Layer.Player_bullet");
     private static readonly int HitState = Animator.StringToHash("Base Layer.Player_bullet_death");
@@ -18,6 +19,7 @@ public class PlayerBullet : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private BulletPool pool;
     private Transform owner;
+    private PlayerCardGauge ownerCards;
     private Collider2D[] ownerColliders;
     private Vector2 direction;
     private Vector2 spawnPosition;
@@ -49,6 +51,7 @@ public class PlayerBullet : MonoBehaviour
         CacheComponents();
         pool = source;
         owner = shooter;
+        ownerCards = shooter != null ? shooter.GetComponentInParent<PlayerCardGauge>() : null;
         ownerColliders = shooterColliders;
         direction = aim.sqrMagnitude > 0f ? aim.normalized : Vector2.right;
         spawnPosition = position;
@@ -93,25 +96,27 @@ public class PlayerBullet : MonoBehaviour
 
         // 빠른 총알이 얇은 벽을 통과하지 않도록 다음 물리 이동 구간을 검사합니다.
         float step = Mathf.Min(speed * Time.fixedDeltaTime, remaining);
-        if (TryGetHitPoint(step, out Vector2 hitPoint))
+        if (TryGetHitPoint(step, out Vector2 hitPoint, out Collider2D hitCollider))
         {
-            PlayHitAnimation(hitPoint);
+            PlayHitAnimation(hitPoint, hitCollider);
             return;
         }
         body.linearVelocity = direction * (step / Time.fixedDeltaTime);
     }
 
-    private bool TryGetHitPoint(float distance, out Vector2 hitPoint)
+    private bool TryGetHitPoint(float distance, out Vector2 hitPoint, out Collider2D hitCollider)
     {
         var filter = new ContactFilter2D { useLayerMask = true, layerMask = hitLayers, useTriggers = true };
         int count = body.Cast(direction, filter, sweepHits, distance);
         float nearest = float.PositiveInfinity;
         hitPoint = body.position;
+        hitCollider = null;
         for (int i = 0; i < count; i++)
         {
             if (CanHit(sweepHits[i].collider) && sweepHits[i].distance < nearest)
             {
                 nearest = sweepHits[i].distance;
+                hitCollider = sweepHits[i].collider;
                 hitPoint = sweepHits[i].collider.ClosestPoint(
                     sweepHits[i].distance > 0f ? sweepHits[i].point : body.position);
             }
@@ -153,17 +158,17 @@ public class PlayerBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (CanHit(other)) PlayHitAnimation(other.ClosestPoint(body.position));
+        if (CanHit(other)) PlayHitAnimation(other.ClosestPoint(body.position), other);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (CanHit(collision.collider))
             PlayHitAnimation(collision.contactCount > 0 ? collision.GetContact(0).point
-                : collision.collider.ClosestPoint(body.position));
+                : collision.collider.ClosestPoint(body.position), collision.collider);
     }
 
-    private void PlayHitAnimation(Vector2 point)
+    private void PlayHitAnimation(Vector2 point, Collider2D target)
     {
         if (!isSpawned || isHitting) return;
         isHitting = true;
@@ -175,6 +180,15 @@ public class PlayerBullet : MonoBehaviour
         transform.position = new Vector3(point.x, point.y, transform.position.z);
         animator.Play(HitState, 0, 0f);
         animator.Update(0f);
+        // isHitting을 먼저 설정해 여러 Collider/콜백에서도 한 발당 한 번만 적용합니다.
+        if (target != null)
+        {
+            var boss = target.GetComponentInParent<BossBase>();
+            // 보스 사망 이벤트에서 풀이 회수되어도 마지막 명중의 충전 대상을 보존합니다.
+            var cards = ownerCards;
+            if (boss != null && boss.TakeDamage(damage) && cards != null)
+                cards.ChargeFromNormalAttack();
+        }
     }
 
     public void ReturnToPool()
@@ -209,6 +223,7 @@ public class PlayerBullet : MonoBehaviour
         lifetimeElapsed = hitElapsed = 0f;
         direction = Vector2.zero;
         owner = null;
+        ownerCards = null;
         ownerColliders = null;
         gameObject.SetActive(false);
     }

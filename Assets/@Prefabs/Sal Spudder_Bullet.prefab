@@ -201,3 +201,5 @@ MonoBehaviour:
   flyState: Base Layer.Sal Spudder_Bullet_Shoot
   hitState: Base Layer.Sal Spudder_Bullet_Death
   hitAnimation: {fileID: 7400000, guid: 4c0b35d21c6d46b4fbce962975255f13, type: 2}
+  damage: 1
+  isParryable: 0

@@ -10,6 +10,10 @@ public class Boss_Bullet : MonoBehaviour
     [SerializeField] private string flyState = "Base Layer.Sal Spudder_Bullet_Shoot";
     [SerializeField] private string hitState = "Base Layer.Sal Spudder_Bullet_Death";
     [SerializeField] private AnimationClip hitAnimation;
+    [SerializeField, Min(0)] private int damage = 1;
+    [SerializeField] private bool isParryable;
+
+    public bool IsParryable => isParryable;
 
     private readonly RaycastHit2D[] castHits = new RaycastHit2D[32];
     private Rigidbody2D body;
@@ -82,13 +86,15 @@ public class Boss_Bullet : MonoBehaviour
         int count = body.Cast(direction, filter, castHits, step);
         float nearest = float.PositiveInfinity;
         Vector2 point = body.position;
+        Collider2D target = null;
         for (int i = 0; i < count; i++)
         {
             if (!CanHit(castHits[i].collider) || castHits[i].distance >= nearest) continue;
             nearest = castHits[i].distance;
+            target = castHits[i].collider;
             point = castHits[i].collider.ClosestPoint(castHits[i].distance > 0f ? castHits[i].point : body.position);
         }
-        if (!float.IsPositiveInfinity(nearest)) { PlayHit(point); return; }
+        if (!float.IsPositiveInfinity(nearest)) { PlayHit(point, target); return; }
         body.linearVelocity = direction * (step / Time.fixedDeltaTime);
     }
 
@@ -96,30 +102,46 @@ public class Boss_Bullet : MonoBehaviour
     {
         return other != null && (owner == null || !other.transform.IsChildOf(owner))
             && (playerLayers.value & (1 << other.gameObject.layer)) != 0
-            && other.GetComponentInParent<PlayerController>() != null;
+            && other.GetComponentInParent<PlayerHealth>() != null;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (CanHit(other)) PlayHit(other.ClosestPoint(body.position));
+        if (CanHit(other)) PlayHit(other.ClosestPoint(body.position), other);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (CanHit(collision.collider))
-            PlayHit(collision.contactCount > 0 ? collision.GetContact(0).point : collision.collider.ClosestPoint(body.position));
+            PlayHit(collision.contactCount > 0 ? collision.GetContact(0).point
+                : collision.collider.ClosestPoint(body.position), collision.collider);
     }
 
-    private void PlayHit(Vector2 position)
+    private void PlayHit(Vector2 position, Collider2D target)
     {
         if (!isSpawned || IsHitting) return;
         IsHitting = true;
+        if (isParryable && target != null)
+        {
+            var parry = target.GetComponentInParent<PlayerParry>();
+            if (parry != null && parry.TryParry())
+            {
+                ReturnToPool();
+                return;
+            }
+        }
         hitElapsed = 0f;
         StopPhysics();
         body.position = position;
         transform.position = new Vector3(position.x, position.y, transform.position.z);
         animator.Play(hitStateHash, 0, 0f);
         animator.Update(0f);
+        if (target != null)
+        {
+            var health = target.GetComponentInParent<PlayerHealth>();
+            // 무적으로 데미지를 받지 않아도 Hit 재생과 풀 반환은 그대로 진행합니다.
+            if (health != null) health.TakeDamage(damage);
+        }
     }
 
     private void Update()

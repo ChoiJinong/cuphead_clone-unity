@@ -55,6 +55,7 @@ public class Boss_SalSpudder : BossBase
 
     protected override void OnEnable()
     {
+        if (IsDead) return;
         speedStage = shotsInCycle = 0;
         TotalShotsFired = CompletedCycles = 0;
         shotFired = false;
@@ -64,6 +65,7 @@ public class Boss_SalSpudder : BossBase
 
     protected override void EnterState(BossState state)
     {
+        if (state == BossState.Dead) return;
         if (state == BossState.Idle)
         {
             PlayAnimation(idleStateHash);
@@ -76,6 +78,7 @@ public class Boss_SalSpudder : BossBase
 
     protected override void UpdateState()
     {
+        if (IsDead) return;
         if (CurrentState == BossState.Idle)
         {
             if (StateElapsed >= idleDelay) ChangeState(BossState.Attack);
@@ -91,7 +94,7 @@ public class Boss_SalSpudder : BossBase
 
     protected override void ExitState(BossState state)
     {
-        if (state != BossState.Attack) return;
+        if (state != BossState.Attack || IsDead) return;
         idleDelay = Mathf.Max(0f, intervalForAttack - StateElapsed);
         if (shotsInCycle < ShotsPerCycle) return;
         shotsInCycle = 0;
@@ -103,7 +106,7 @@ public class Boss_SalSpudder : BossBase
     // Boss1_Attack의 발사 Animation Event에서 호출합니다.
     public void FireProjectile()
     {
-        if (!isActiveAndEnabled || CurrentState != BossState.Attack || shotFired) return;
+        if (!isActiveAndEnabled || IsDead || CurrentState != BossState.Attack || shotFired) return;
         ProjectileKind kind = shotsInCycle < DirtShotsPerCycle ? ProjectileKind.Dirt : ProjectileKind.Worm;
         Boss_Bullet_Pool pool = kind == ProjectileKind.Dirt ? dirtPool : wormPool;
         if (pool.Spawn(shootPos.position, Vector2.left, transform, ownerColliders) == null)

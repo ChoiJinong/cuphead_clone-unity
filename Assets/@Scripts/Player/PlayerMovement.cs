@@ -223,6 +223,16 @@ public class PlayerMovement : MonoBehaviour
             animator.Play(DirectionalAttackState, attackLayer, 0f);
     }
 
+    public void ApplyParryBounce(float upwardSpeed)
+    {
+        EndDash();
+        jumpRequested = false;
+        dashRequested = false;
+        canCutJump = false; // 점프 키를 놓아도 패링 반동은 줄이지 않습니다.
+        isGrounded = false;
+        body.linearVelocity = new Vector2(body.linearVelocity.x, upwardSpeed);
+    }
+
     public void ResetState()
     {
         EndDash(); // 비활성화되더라도 중력이 0인 채로 남지 않게 합니다.

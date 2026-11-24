@@ -209,3 +209,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   hitAnimation: {fileID: 7400000, guid: 0a85eac96fc0152448ccdcb964ac9ea6, type: 2}
+  damage: 4

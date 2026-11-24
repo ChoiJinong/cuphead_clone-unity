@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3022080842017535546}
   - component: {fileID: 1337643826552836073}
   m_Layer: 0
-  m_Name: Sal Spudder_Worm_Temporary
+  m_Name: Sal Spudder_Worm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,10 +85,10 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 12
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 0291b89d013de9743b15c3ec9358de88, type: 3}
-  m_Color: {r: 1, g: 0.65, b: 0.8, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
+  m_Sprite: {fileID: 21300000, guid: a758adc477a77354992a3584babcfba9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
@@ -105,7 +105,7 @@ Animator:
   m_GameObject: {fileID: 6674857161807030482}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 06b48a003c9366d45b8aa661ccb04b81, type: 2}
+  m_Controller: {fileID: 22100000, guid: 6c4832aed5f412149842d66fc371ad64, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -201,3 +201,5 @@ MonoBehaviour:
   flyState: Base Layer.Sal Spudder_Bullet_Shoot
   hitState: Base Layer.Sal Spudder_Bullet_Death
   hitAnimation: {fileID: 7400000, guid: 4c0b35d21c6d46b4fbce962975255f13, type: 2}
+  damage: 1
+  isParryable: 1
